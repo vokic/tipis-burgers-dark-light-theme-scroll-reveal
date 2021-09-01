@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tipi Burgers</title>
+  </head>
+  <body>
+    <!-- Scroll Top -->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!-- Header -->
+
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Tipi's Burgers</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Početna</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">O Nama</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Usluge</a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">Meni</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Kontakt</a>
+            </li>
+
+            <li>
+              <i class="bx bx-moon change-theme" id="theme-button"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- Home -->
+
+      <section class="home" id="home"></section>
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <h1 class="home__title">Tipijevi burgeri.</h1>
+          <h2 class="home__subtitle">
+            Probajte najbolje burgere <br />
+            u gradu.
+          </h2>
+          <a href="#" class="button">Pogledaj meni</a>
+        </div>
+
+        <img src="img/home.png" alt="" class="home__img" />
+      </div>
+
+      <!-- About -->
+
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <span class="section-subtitle about__initial">O Nama</span>
+            <h2 class="section-title about__initial">
+              Mi spremamo <br /><span class="naj">najukusniju</span> hranu
+            </h2>
+            <p class="about__description">
+              Sve počinje sa pravim sastojcima. Za vas smo tu da spremimo
+              najvolju hranu u celom gradu, sa najboljom uslugom, obrocima i
+              cenama. Posetite nas.
+            </p>
+            <a href="#" class="button">Poreklo sastojaka</a>
+          </div>
+          <img src="img/about-2.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+
+      <!-- Services -->
+
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Usluge</span>
+        <h2 class="section-title">Naša neverovatna ponuda, <br />za Vas</h2>
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <img src="img/dish.png" alt="" class="services__img" />
+            <h3 class="services__title">Odlični sastojci</h3>
+            <p class="services__description">
+              Godinama unazad našim mušterijama nudimo uslugu visokog kvaliteta,
+              sa najboljim sastojcima domaćih proizvođača
+            </p>
+          </div>
+          <div class="services__content">
+            <img src="img/burger.png" alt="" class="services__img" />
+            <h3 class="services__title">Kompletni obroci</h3>
+            <p class="services__description">
+              Godinama unazad našim mušterijama nudimo uslugu visokog kvaliteta,
+              sa najboljim sastojcima domaćih proizvođača
+            </p>
+          </div>
+          <div class="services__content">
+            <img src="img/truck.png" alt="" class="services__img" />
+            <h3 class="services__title">Dostava na kuću</h3>
+            <p class="services__description">
+              Godinama unazad našim mušterijama nudimo uslugu visokog kvaliteta,
+              sa najboljim sastojcima domaćih proizvođača
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu -->
+
+      <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Specijali</span>
+        <h2 class="section-title">Naši najmesnatiji obroci</h2>
+
+        <div class="menu__container bd-grid">
+          <div class="menu__content">
+            <img src="img/plate-1.png" class="menu__img" alt="" />
+            <h3 class="menu__name">Roštilj salata</h3>
+            <span class="menu__detail">Zdrav obrok</span>
+            <span class="menu__price">699 din.</span>
+            <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a>
+          </div>
+          <div class="menu__content">
+            <img src="img/plate-2.png" class="menu__img" alt="" />
+            <h3 class="menu__name">Pojačani proteinski</h3>
+            <span class="menu__detail">Obrok za snagu</span>
+            <span class="menu__price">999 din.</span>
+            <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a>
+          </div>
+          <div class="menu__content">
+            <img src="img/plate-3.png" class="menu__img" alt="" />
+            <h3 class="menu__name">Original Tipijev burger</h3>
+            <span class="menu__detail">Nema greške</span>
+            <span class="menu__price">899 din.</span>
+            <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a>
+          </div>
+          <div class="menu__content">
+            <img src="img/plate-4.png" class="menu__img" alt="" />
+            <h3 class="menu__name">Riblji burger</h3>
+            <span class="menu__detail">Morski ukusi</span>
+            <span class="menu__price">599 din.</span>
+            <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- App -->
+
+      <section class="app section bd-container">
+        <div class="app__container bd-grid">
+          <div class="app__data">
+            <span class="section-subtitle app__initial">Družimo se</span>
+            <h2 class="section-title app__initial">Potražite nas na mrežama</h2>
+            <p class="app__description">
+              Pronađite nas na socijalnim mrežama kao
+              <span class="naj">@tipi.burgers</span> da se družimo, da ostavite
+              fotke kako uživate, a često objavljujemo akcije i specijalne
+              kratkotrajne ponude i popuste!
+            </p>
+            <div class="app__stores">
+              <!-- <a href="#"> <img src="img/app-1.jpg" alt="app__store" /></a>
+            <a href="#"> <img src="img/app-2.jpg" alt="app__store" /></a> -->
+            </div>
+          </div>
+          <img src="img/social.png" alt="" class="app__img" />
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <span class="section-subtitle contact__initial">Pišite</span>
+            <h2 class="section-title contact__initial">Kontaktirajte nas</h2>
+            <p class="contact__description">
+              Stojimo na raspolaganju u vezi svih pitanja. Rezervišite mesto,
+              naručite klopu, zakažite proslavu... Naše osoblje vam je na
+              raspolaganju!
+            </p>
+          </div>
+          <div class="contact__button">
+            <i class="phoneus__icon bx bxs-phone-call bx-tada bx-rotate-90"></i>
+            <br />
+            <a href="#" class="button">Kontaktiraj nas odmah</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="" class="footer__logo">Tipi's Burgers</a>
+          <span class="footer__description">Restoran</span>
+
+          <div class="social__wrapper">
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Servisi</h3>
+          <ul>
+            <li><a href="" class="footer__link">Dostava</a></li>
+            <li><a href="" class="footer__link">Cenovnik</a></li>
+            <li><a href="" class="footer__link">Fast food</a></li>
+            <li><a href="" class="footer__link">Rezervacije</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Informacije</h3>
+          <ul>
+            <li><a href="" class="footer__link">Događaji</a></li>
+            <li><a href="" class="footer__link">Kontaktirajte nas</a></li>
+            <li><a href="" class="footer__link">Polisa privatnosti</a></li>
+            <li><a href="" class="footer__link">Uslovi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Lokacija</h3>
+          <ul>
+            <li>Beograd - Srbija</li>
+            <li>Kralja Milana 666</li>
+            <li>063 / 123 - 456</li>
+            <li>tipi.burgers@email.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; 2021 Vokic. Sva prava zadržana.</p>
+    </footer>
+
+    <!-- Scroll Reveal -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
