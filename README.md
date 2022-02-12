@@ -1,1 +1,3 @@
-# tipis-burgers-dark-light-theme-scroll-reveal
+# Burgers-joint website, dark-light switch, js scroll reveal
+
+<img src="https://i.imgur.com/imUuiEJ.jpg">
